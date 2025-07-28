@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      PROJECT_ID: third-project-467207
+      PROJECT_ID: ci-cd-467312
       REGISTRY: asia-southeast2-docker.pkg.dev/ci-cd-467312/docker-asia-v2
       VM_HOST: ${{ secrets.VM_HOST }}
       VM_USER: ${{ secrets.VM_USER }}
